@@ -47,16 +47,22 @@ if(typeof lastNumber == 'string'){
      let numericPart = lastNumber.match(/\d+/);
     //  .match() method: This is a JavaScript string method that searches a string for a match against a regular expression (regex)
      console.log(numericPart);
-     
-
      if(numericPart){
         console.log(parseInt(numericPart));
-        
      }
      else{
         console.log("No numbers found");
-
      }
 }else {
     console.log("Not a string");
 }
+
+// convert boolean 
+const isLogged = "" ;
+const booleanIsLoggedIn = Boolean(isLogged);
+console.log(booleanIsLoggedIn);
+
+const someNumber = 23;
+const StringConversion = String(someNumber);
+console.log(StringConversion);
+
