@@ -10,6 +10,8 @@ const NumberData = 18;
 const booleanData = true | false;
 const nullData = null;  // standalone value 
 const undefinedData = undefined; // variable declared but not assign any value to it 
+
+
 const symbolData = Symbol('id'); // unique value 
 const bigintData = BigInt('123456789101112131415'); //larger number
 

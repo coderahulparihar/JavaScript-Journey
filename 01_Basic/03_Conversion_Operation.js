@@ -66,3 +66,32 @@ const someNumber = 23;
 const StringConversion = String(someNumber);
 console.log(StringConversion);
 
+
+
+//  ----------------------  Operations ------------------------
+
+let value = 3;
+let valuenag = -value;
+console.log(valuenag);
+
+
+console.log("1" + 2);
+console.log("1" + 2 + 2); // It will start converting from string 
+console.log(1 + 2 + "2"); // It will start converting from number 
+
+console.log(1 + "");
+
+let num1, num2, num3 ;
+num1 = num2 = num3 = 2;
+console.log(num1);
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+
+
+
+
+
+
