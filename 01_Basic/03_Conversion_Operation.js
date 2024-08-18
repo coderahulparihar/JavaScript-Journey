@@ -45,6 +45,7 @@ let lastNumber = "hjj33";
 if(typeof lastNumber == 'string'){
      // Extract numbers from the string using a regular expression
      let numericPart = lastNumber.match(/\d+/);
+    //  .match() method: This is a JavaScript string method that searches a string for a match against a regular expression (regex)
      console.log(numericPart);
      
 
