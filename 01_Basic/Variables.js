@@ -1,5 +1,4 @@
 
-/*
 var myname = "Rahul Parihar";
 function saymyname(){
   console.log(myname);
@@ -47,7 +46,6 @@ function variables(){
 }
 
 variables();
-*/
 
 const arr = ['one', 'two', 'three'];
 const str = 'Hello';
@@ -108,7 +106,9 @@ const accountId = 2000101;
 const accountUserName = "Rahul Parihar";
 const accountEmailId = "rahul@gmail.com";
 let accountType = 'Saving Current';
-let accountState;
+let accountState; 
+/* let accountState variable not assign any value yet and let keyword creates a block-scoped variable and if we dont assign any value to it then,
+ variable is in temporial dead zone and The default value for such a variable is undefined. */
 
 console.table([accountId, accountUserName, accountEmailId, accountType]);
 console.log(accountState);
