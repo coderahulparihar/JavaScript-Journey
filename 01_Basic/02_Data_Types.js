@@ -18,7 +18,7 @@ console.table([StringData, NumberData, booleanData, nullData, undefinedData,symb
 console.log(typeof NumberData);
 console.log(typeof bigintData);
 console.log(typeof symbolData);
-console.log(typeof undefinedData);
+console.log(typeof undefinedData);  // undefined is type in JS 
 
 
 const anothersymbolData = Symbol('id');
