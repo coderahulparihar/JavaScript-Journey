@@ -107,9 +107,11 @@ console.log('1' == 1);
 const accountId = 2000101;
 const accountUserName = "Rahul Parihar";
 const accountEmailId = "rahul@gmail.com";
-const accountType = 'Saving Current';
+let accountType = 'Saving Current';
+let accountState;
 
 console.table([accountId, accountUserName, accountEmailId, accountType]);
+console.log(accountState);
 
 
 
@@ -127,6 +129,7 @@ console.log(sayanotherName); // can`t re-declare but can re-assigned within the 
 const saythirdName = 'Ravi';
 // saythirdName = "Raju"
 console.log(saythirdName); // nor re-declare or re-assigned within the same scope. It is used for constants whose values should not change.
+
 
 
 
